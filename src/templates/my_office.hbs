@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="header__content">
+        <div class="info__content">
+            <button type="button" class="search-btn search" id="search-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
+                        fill="black" />
+                </svg>
+            </button>
+            <a class="logo" href="/">Logo</a>
+
+            <div class="dropdown_office">
+                <button type="" class="dropbtn_office"> <svg class="user__profile-header-office" width="20" height="21"
+                        viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M18.4212 20.4551H16.3947C16.3947 17.0818 13.5271 14.3384 9.9999 14.3384C6.47269 14.3384 3.60614 17.0828 3.60614 20.4551H1.57959C1.57959 15.9781 5.35809 12.3389 10.0009 12.3389C14.6427 12.3389 18.4212 15.9781 18.4212 20.4551Z"
+                                fill="#010002" />
+                            <path
+                                d="M10.0009 11.6893C6.93776 11.6893 4.44409 9.22781 4.44409 6.20547C4.44308 3.18214 6.93675 0.72168 10.0009 0.72168C13.066 0.72168 15.5597 3.18114 15.5597 6.20547C15.5597 9.22981 13.066 11.6893 10.0009 11.6893ZM10.0009 2.72124C8.05337 2.72124 6.46963 4.2839 6.46963 6.20547C6.46963 8.12705 8.05337 9.68971 10.0009 9.68971C11.9494 9.68971 13.5332 8.12705 13.5332 6.20547C13.5332 4.2839 11.9474 2.72124 10.0009 2.72124Z"
+                                fill="#010002" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="20" height="19.7337" fill="white" transform="translate(0 0.72168)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="my_cabinet">Мій кабінет</span>
+                </button>
+                <div class="dropdown-content_office">
+                    <a href="" class="link_office">Мої оголошення</a>
+                    <a href="" class="link_office">Обране</a>
+                </div>
+            </div>
+            <button type="" class="logout_office">
+                <svg class="" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M2.02219 13.5335V17.978H17.9778V2.02243H2.02219V6.46686H0.199951V2.22243C0.199951 1.10508 1.10484 0.200195 2.22219 0.200195H17.7777C18.8951 0.200195 19.7999 1.10508 19.7999 2.22243V17.778C19.7999 18.8953 18.8951 19.8002 17.7778 19.8002H2.22219C1.10484 19.8002 0.199951 18.8953 0.199951 17.778V13.5335H2.02219ZM11.2272 9.08901L8.15503 6.01677L9.44438 4.72738L14.7171 10.0001L9.44438 15.2728L8.15503 13.9834L11.2272 10.9112H0.199951V9.08901H11.2272Z"
+                        fill="black" />
+                </svg>
+            </button>
+
+            <button type="" class="btn btn_office">
+                <svg class="plus" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 0V14" stroke="white" stroke-width="2" />
+                    <path d="M0 7L14 7" stroke="white" stroke-width="2" />
+                </svg>
+                <span class="text_btn">Створити оголошення!</span></button>
+        </div>
+        <button type="button" class="menu-button" data-menu-button aria-expanded="true" aria-controls="modal_menu">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.5 15H17.5V13.3333H2.5V15ZM2.5 10.8333H17.5V9.16667H2.5V10.8333ZM2.5 5V6.66667H17.5V5H2.5Z"
+                    fill="black" />
+            </svg>
+        </button>
+        <div class="container__links">
+            {{>./my_office_menu.hbs}}
+            <nav class="header__nav-desktop">
+                <div class="menu__links"></div>
+            </nav>
+        </div>
+    </div>
+</div>

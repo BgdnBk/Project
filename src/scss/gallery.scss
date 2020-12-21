@@ -1,0 +1,40 @@
+.slider {
+  display: flex;
+  
+}
+
+.slide-img {
+    display: block;
+    width: 100%;
+    margin-top: 27px;
+}
+
+.item-card {
+    width: 100%;
+    margin: 15px;
+    max-width: 294px;
+}
+
+.card-content {
+    padding: 20px 0 21px 19px;
+    background-color: $white-color;
+}
+
+.goods-item {
+    margin-bottom: 14px;
+    font-family: $basic-font;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+    color: $black-color;
+}
+
+.new-price {
+    font-family: $basic-font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: $btn-color;
+}

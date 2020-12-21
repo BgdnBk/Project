@@ -1,0 +1,105 @@
+<div class="add-modal__backdrop is-hidden" data-modal>
+  <div class="add-modal__block">
+    <button type="button" class="add-modal__close-button">
+      <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
+          fill="black" />
+      </svg>
+    </button>
+
+    <form action="" id="add-form" class="add-modal__form">
+      <h1 class="add-modal__title">
+        Додати оголошення
+      </h1>
+      <div class="modal__form-block name-block">
+        <input type="text" class="required name-input" name="product-name" id="product-name" placeholder=" ">
+        <label for="product-name" class="form-label">Назва товару</label>
+      </div>
+      <div class="modal__form-block modal__photo-block">
+        <div class="photo-block" name="photo-block" id="photo-block">
+
+          <div class="add-photo">
+            <div class="add-photo__image-block">
+              <input type="file" accept="image/*" name="photo-file" id="photo-file" class="add-photo-file">
+              <label for="photo-file">
+                <span class="input-file__button-text">+</span>
+              </label>
+            </div>
+
+          </div>
+
+          <div class="add-photo">
+            <div class="add-photo__image-block">
+              <input type="file" accept="image/*" name="photo-file" id="photo-file" class="add-photo-file">
+              <label for="photo-file">
+                <span class="input-file__button-text">+</span>
+              </label>
+            </div>
+
+          </div>
+          <div class="add-photo">
+            <div class="add-photo__image-block">
+              <input type="file" accept="image/*" name="photo-file" id="photo-file" class="add-photo-file">
+              <label for="photo-file">
+                <span class="input-file__button-text">+</span>
+              </label>
+            </div>
+
+          </div>
+          <div class="add-photo">
+            <div class="add-photo__image-block">
+              <input type="file" accept="image/*" name="photo-file" id="photo-file" class="add-photo-file">
+              <label for="photo-file">
+                <span class="input-file__button-text">+</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="add-photo">
+            <div class="add-photo__image-block">
+              <input type="file" accept="image/*" name="photo-file" id="photo-file" class="add-photo-file">
+              <label for="photo-file">
+                <span class="input-file__button-text">+</span>
+              </label>
+            </div>
+          </div>
+
+        </div>
+        <label for="photo-block" class="form-label">Фото</label>
+      </div>
+      <div class="modal__form-block">
+        <textarea class="required" name="product-description" id="product-description" cols="30" rows="10"></textarea>
+        <label for="product-description" class="form-label">Опис товару</label>
+      </div>
+      <div class="modal__form-block">
+        <select name="product-category" class="required" id="product-category">
+
+        </select>
+        {{!-- <input type="text" name="product-category" id="product-category"> --}}
+        <label for="product-category" class="form-label">Категорія товару</label>
+      </div>
+      <div class="modal__form-block">
+        <input type="text" class="required" name="product-price" id="product-price" placeholder="0.00грн">
+        <label for="product-price" class="form-label">Ціна</label>
+      </div>
+      <div class="modal__form-block">
+        <input type="tel" class="required tel" name="tel-number" id="tel-number" placeholder="093 --- -- --">
+        <label for="tel-number" class="form-label">Телефон</label>
+      </div>
+
+      <div class="modal__button-block">
+        <button type="submit" class="add-button" aria-label="add-button">
+          Додати
+        </button>
+      </div>
+
+    </form>
+    {{!-- <div class="modal__button-block">
+      <button type="submit" class="add-button" aria-label="add-button">
+        Додати
+      </button>
+    </div> --}}
+
+  </div>
+</div>

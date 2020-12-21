@@ -1,0 +1,27 @@
+.body {
+    background-color: $body-color;
+}
+
+.container {
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
